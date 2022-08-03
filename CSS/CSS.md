@@ -21,9 +21,9 @@ h1 {
 - 인라인(inline)
     - 해당 태그에 직접 style 속성을 활용
 - 내부 참조(embedding) - <style>
-    - <head> 태그 내에 <style>에 지정
+    - < head > 태그 내에 <style>에 지정
 - 외부 참조(link file) - 분리된 CSS 파일
-    - 외부 CSS 파일을 <head>내 <link>를 통해 불러오기
+    - 외부 CSS 파일을 < head >내 < link >를 통해 불러오기
 
 - 1. 인라인(lnline)
     - 인라인을 쓰게 되면 실수가 잦아짐(중복도 있을 것이고, 찾기가 어려워서)
@@ -71,11 +71,11 @@ h1 {
 
 ## CSS 적용 우선순위(Cascading Order)
 - CSS 우선순위를 아래와 같이 그룹을 지어볼 수 있다,
-    - 1. 중요도(Importance) - 사용시 주의
+    - 1 중요도(Importance) - 사용시 주의
         - !important
-    - 2. 우선 순위(Specificity)
+    - 2 우선 순위(Specificity)
         - 인라인 > id > class, 속성, pseudo-class > 요소, pseudo-element
-    - 3. CSS 파일 로딩 순서
+    - 3 CSS 파일 로딩 순서
 
 ## CSS 상속
 - CSS는 상속을 통해 부모 요소의 속성을 자식에게 상속된다.
